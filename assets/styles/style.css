@@ -1,0 +1,32 @@
+.hero {
+    height: 200vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background: #0f1a14;
+    color: white;
+}
+
+.left-text {
+    width: 40%;
+}
+
+.line {
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.visual {
+    position: relative;
+}
+
+.seed, .plant {
+    width: 200px;
+    position: absolute;
+}
+
+.plant {
+    opacity: 0;
+}
